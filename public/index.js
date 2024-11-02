@@ -23,7 +23,7 @@ fetch('/products')
     });
   })
   .catch((error) => {
-    console.error('Error fetching products:', error);
+    console.Log('Error fetching products:', error);
   });
 
 main_page.addEventListener('click', (e) => {
